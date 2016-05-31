@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B75815D1CFE5937000DE799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75815C1CFE5937000DE799 /* AppDelegate.swift */; };
+		1B75815F1CFE5937000DE799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75815E1CFE5937000DE799 /* ViewController.swift */; };
+		1B7581621CFE5937000DE799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7581601CFE5937000DE799 /* Main.storyboard */; };
+		1B7581641CFE5937000DE799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7581631CFE5937000DE799 /* Assets.xcassets */; };
+		1B7581671CFE5937000DE799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7581651CFE5937000DE799 /* LaunchScreen.storyboard */; };
+		1B7581721CFE5937000DE799 /* sampleAdjustTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7581711CFE5937000DE799 /* sampleAdjustTextViewTests.swift */; };
+		1B75817D1CFE5937000DE799 /* sampleAdjustTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75817C1CFE5937000DE799 /* sampleAdjustTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B75816E1CFE5937000DE799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7581511CFE5937000DE799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7581581CFE5937000DE799;
+			remoteInfo = sampleAdjustTextView;
+		};
+		1B7581791CFE5937000DE799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7581511CFE5937000DE799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7581581CFE5937000DE799;
+			remoteInfo = sampleAdjustTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B7581591CFE5937000DE799 /* sampleAdjustTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleAdjustTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B75815C1CFE5937000DE799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B75815E1CFE5937000DE799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B7581611CFE5937000DE799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B7581631CFE5937000DE799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B7581661CFE5937000DE799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B7581681CFE5937000DE799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B75816D1CFE5937000DE799 /* sampleAdjustTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleAdjustTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7581711CFE5937000DE799 /* sampleAdjustTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAdjustTextViewTests.swift; sourceTree = "<group>"; };
+		1B7581731CFE5937000DE799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7581781CFE5937000DE799 /* sampleAdjustTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleAdjustTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B75817C1CFE5937000DE799 /* sampleAdjustTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAdjustTextViewUITests.swift; sourceTree = "<group>"; };
+		1B75817E1CFE5937000DE799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7581561CFE5937000DE799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75816A1CFE5937000DE799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7581751CFE5937000DE799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7581501CFE5937000DE799 = {
+			isa = PBXGroup;
+			children = (
+				1B75815B1CFE5937000DE799 /* sampleAdjustTextView */,
+				1B7581701CFE5937000DE799 /* sampleAdjustTextViewTests */,
+				1B75817B1CFE5937000DE799 /* sampleAdjustTextViewUITests */,
+				1B75815A1CFE5937000DE799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B75815A1CFE5937000DE799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7581591CFE5937000DE799 /* sampleAdjustTextView.app */,
+				1B75816D1CFE5937000DE799 /* sampleAdjustTextViewTests.xctest */,
+				1B7581781CFE5937000DE799 /* sampleAdjustTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B75815B1CFE5937000DE799 /* sampleAdjustTextView */ = {
+			isa = PBXGroup;
+			children = (
+				1B75815C1CFE5937000DE799 /* AppDelegate.swift */,
+				1B75815E1CFE5937000DE799 /* ViewController.swift */,
+				1B7581601CFE5937000DE799 /* Main.storyboard */,
+				1B7581631CFE5937000DE799 /* Assets.xcassets */,
+				1B7581651CFE5937000DE799 /* LaunchScreen.storyboard */,
+				1B7581681CFE5937000DE799 /* Info.plist */,
+			);
+			path = sampleAdjustTextView;
+			sourceTree = "<group>";
+		};
+		1B7581701CFE5937000DE799 /* sampleAdjustTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B7581711CFE5937000DE799 /* sampleAdjustTextViewTests.swift */,
+				1B7581731CFE5937000DE799 /* Info.plist */,
+			);
+			path = sampleAdjustTextViewTests;
+			sourceTree = "<group>";
+		};
+		1B75817B1CFE5937000DE799 /* sampleAdjustTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B75817C1CFE5937000DE799 /* sampleAdjustTextViewUITests.swift */,
+				1B75817E1CFE5937000DE799 /* Info.plist */,
+			);
+			path = sampleAdjustTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7581581CFE5937000DE799 /* sampleAdjustTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7581811CFE5937000DE799 /* Build configuration list for PBXNativeTarget "sampleAdjustTextView" */;
+			buildPhases = (
+				1B7581551CFE5937000DE799 /* Sources */,
+				1B7581561CFE5937000DE799 /* Frameworks */,
+				1B7581571CFE5937000DE799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleAdjustTextView;
+			productName = sampleAdjustTextView;
+			productReference = 1B7581591CFE5937000DE799 /* sampleAdjustTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B75816C1CFE5937000DE799 /* sampleAdjustTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7581841CFE5937000DE799 /* Build configuration list for PBXNativeTarget "sampleAdjustTextViewTests" */;
+			buildPhases = (
+				1B7581691CFE5937000DE799 /* Sources */,
+				1B75816A1CFE5937000DE799 /* Frameworks */,
+				1B75816B1CFE5937000DE799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B75816F1CFE5937000DE799 /* PBXTargetDependency */,
+			);
+			name = sampleAdjustTextViewTests;
+			productName = sampleAdjustTextViewTests;
+			productReference = 1B75816D1CFE5937000DE799 /* sampleAdjustTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B7581771CFE5937000DE799 /* sampleAdjustTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7581871CFE5937000DE799 /* Build configuration list for PBXNativeTarget "sampleAdjustTextViewUITests" */;
+			buildPhases = (
+				1B7581741CFE5937000DE799 /* Sources */,
+				1B7581751CFE5937000DE799 /* Frameworks */,
+				1B7581761CFE5937000DE799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B75817A1CFE5937000DE799 /* PBXTargetDependency */,
+			);
+			name = sampleAdjustTextViewUITests;
+			productName = sampleAdjustTextViewUITests;
+			productReference = 1B7581781CFE5937000DE799 /* sampleAdjustTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7581511CFE5937000DE799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eriko Ichinohe";
+				TargetAttributes = {
+					1B7581581CFE5937000DE799 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1B75816C1CFE5937000DE799 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1B7581581CFE5937000DE799;
+					};
+					1B7581771CFE5937000DE799 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1B7581581CFE5937000DE799;
+					};
+				};
+			};
+			buildConfigurationList = 1B7581541CFE5937000DE799 /* Build configuration list for PBXProject "sampleAdjustTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7581501CFE5937000DE799;
+			productRefGroup = 1B75815A1CFE5937000DE799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7581581CFE5937000DE799 /* sampleAdjustTextView */,
+				1B75816C1CFE5937000DE799 /* sampleAdjustTextViewTests */,
+				1B7581771CFE5937000DE799 /* sampleAdjustTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7581571CFE5937000DE799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7581671CFE5937000DE799 /* LaunchScreen.storyboard in Resources */,
+				1B7581641CFE5937000DE799 /* Assets.xcassets in Resources */,
+				1B7581621CFE5937000DE799 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75816B1CFE5937000DE799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7581761CFE5937000DE799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7581551CFE5937000DE799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B75815F1CFE5937000DE799 /* ViewController.swift in Sources */,
+				1B75815D1CFE5937000DE799 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7581691CFE5937000DE799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7581721CFE5937000DE799 /* sampleAdjustTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7581741CFE5937000DE799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B75817D1CFE5937000DE799 /* sampleAdjustTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B75816F1CFE5937000DE799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7581581CFE5937000DE799 /* sampleAdjustTextView */;
+			targetProxy = 1B75816E1CFE5937000DE799 /* PBXContainerItemProxy */;
+		};
+		1B75817A1CFE5937000DE799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7581581CFE5937000DE799 /* sampleAdjustTextView */;
+			targetProxy = 1B7581791CFE5937000DE799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B7581601CFE5937000DE799 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7581611CFE5937000DE799 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B7581651CFE5937000DE799 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7581661CFE5937000DE799 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B75817F1CFE5937000DE799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B7581801CFE5937000DE799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7581821CFE5937000DE799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleAdjustTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleAdjustTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B7581831CFE5937000DE799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleAdjustTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleAdjustTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B7581851CFE5937000DE799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleAdjustTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleAdjustTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleAdjustTextView.app/sampleAdjustTextView";
+			};
+			name = Debug;
+		};
+		1B7581861CFE5937000DE799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleAdjustTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleAdjustTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleAdjustTextView.app/sampleAdjustTextView";
+			};
+			name = Release;
+		};
+		1B7581881CFE5937000DE799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleAdjustTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleAdjustTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sampleAdjustTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B7581891CFE5937000DE799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleAdjustTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleAdjustTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sampleAdjustTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7581541CFE5937000DE799 /* Build configuration list for PBXProject "sampleAdjustTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B75817F1CFE5937000DE799 /* Debug */,
+				1B7581801CFE5937000DE799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7581811CFE5937000DE799 /* Build configuration list for PBXNativeTarget "sampleAdjustTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7581821CFE5937000DE799 /* Debug */,
+				1B7581831CFE5937000DE799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B7581841CFE5937000DE799 /* Build configuration list for PBXNativeTarget "sampleAdjustTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7581851CFE5937000DE799 /* Debug */,
+				1B7581861CFE5937000DE799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B7581871CFE5937000DE799 /* Build configuration list for PBXNativeTarget "sampleAdjustTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7581881CFE5937000DE799 /* Debug */,
+				1B7581891CFE5937000DE799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B7581511CFE5937000DE799 /* Project object */;
+}
